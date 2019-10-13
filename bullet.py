@@ -2,6 +2,10 @@ import pygame
 from pygame.sprite import Sprite
 
 
+def test2():
+    pass
+
+
 class Bullet(Sprite):
     """Класс для управления пулями, выпущенными кораблем."""
 
