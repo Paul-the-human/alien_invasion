@@ -6,6 +6,21 @@ from settings import Settings
 from ship import Ship
 
 
+class Test:
+    param = 1
+    param2 = 3
+
+
+class Test2:
+    a = "bruce_lee"
+
+
+def test1():
+    a = Test()
+    a.param2 = 2
+    return a.param
+
+
 def run_game():
     # Инициализирует игру и объект экрана
     pygame.init()
