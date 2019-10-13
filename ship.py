@@ -1,6 +1,10 @@
 import pygame
 
 
+def test():
+    pass
+
+
 class Ship:
     def __init__(self, ai_settings, screen):
         """Инициализирует корабль и задает его начальную позицию."""
